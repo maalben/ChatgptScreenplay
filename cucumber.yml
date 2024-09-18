@@ -1,0 +1,5 @@
+default: --format pretty --format html --out reports/report.html --strict
+chrome: --format pretty --format html --out=reports/chrome_report.html --strict
+firefox: --format pretty --format html --out=reports/firefox_report.html --strict
+json_report:
+  --format json --out reports/report.json

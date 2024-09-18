@@ -1,0 +1,107 @@
+[
+  {
+    "id": "login-to-applitools-hackathon",
+    "uri": "features/features/login.feature",
+    "keyword": "Feature",
+    "name": "Login to Applitools Hackathon",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-to-applitools-hackathon;user-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "name": "User logs in with valid credentials",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user opens the login page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2456872000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user logs in with valid credentials",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 888106000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user should see the main dashboard",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24166000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 229638000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

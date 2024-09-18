@@ -12,33 +12,33 @@ Con Ruby on Rails, lenguaje de programación que normalmente NO uso para automat
 
 Estructura de proyecto:
 
-automation_project/
-├── Gemfile
-├── reports/
-├── features/
-│   ├── features/
-│   │   ├── login.feature
-│   ├── interactions/
-│   │   ├── click_element.rb
-│   │   ├── fill_in_field.rb
-│   ├── questions/
-│   │   ├── login_successful_question.rb
-│   ├── step_definitions/
-│   │   ├── login_steps.rb
-│   ├── support/
-│   │   ├── abilities/
-│	│	│	└── browse_the_web.rb
-│   │   ├── env.rb
-│   │   ├── actor.rb
-│   │   └── hooks.rb
-│   ├── tasks
-│   │   ├── login_task.rb
-│   │   └── navigate_to.rb
-│   ├── user_interfaces
-│   │   ├── login_page.rb
-│   ├── util
-│   │   ├── utilities.rb
-├── cucumber.yml
+    automation_project/
+    ├── Gemfile
+    ├── reports/
+    ├── features/
+    │   ├── features/
+    │   │   ├── login.feature
+    │   ├── interactions/
+    │   │   ├── click_element.rb
+    │   │   ├── fill_in_field.rb
+    │   ├── questions/
+    │   │   ├── login_successful_question.rb
+    │   ├── step_definitions/
+    │   │   ├── login_steps.rb
+    │   ├── support/
+    │   │   ├── abilities/
+    │	│	│	└── browse_the_web.rb
+    │   │   ├── env.rb
+    │   │   ├── actor.rb
+    │   │   └── hooks.rb
+    │   ├── tasks
+    │   │   ├── login_task.rb
+    │   │   └── navigate_to.rb
+    │   ├── user_interfaces
+    │   │   ├── login_page.rb
+    │   ├── util
+    │   │   ├── utilities.rb
+    ├── cucumber.yml
 .
 
 ###### Gemfile

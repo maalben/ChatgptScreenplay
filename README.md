@@ -27,7 +27,7 @@ Estructura de proyecto:
     │   │   ├── login_steps.rb
     │   ├── support/
     │   │   ├── abilities/
-    │	│	│	└── browse_the_web.rb
+    │	│	└── browse_the_web.rb
     │   │   ├── env.rb
     │   │   ├── actor.rb
     │   │   └── hooks.rb

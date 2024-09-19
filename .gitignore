@@ -57,5 +57,6 @@ build-iPhoneSimulator/
 
 .idea
 Gemfile.lock
-ChatgptScreenplay.iml
 test_capybara.rb
+reports/*.html
+.DS_Store
